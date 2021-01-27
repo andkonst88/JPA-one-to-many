@@ -1,0 +1,40 @@
+02:54:47,441 DEBUG SQL:109 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id) 
+    values
+        (?, ?, ?)
+02:54:47,446 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Mike Lawson]
+02:54:47,446 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [1000]
+02:54:47,446 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [2000MO10789]
+02:54:47,458 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+02:54:47,459 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2014AL50456]
+02:54:47,460 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [1]
+02:54:47,460 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [Amy Gill]
+02:54:47,463 DEBUG SQL:109 - 
+    insert 
+    into
+        Student
+        (enrollment_id, guide_id, name) 
+    values
+        (?, ?, ?)
+02:54:47,463 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [2014JT50123]
+02:54:47,463 TRACE BasicBinder:81 - binding parameter [2] as [BIGINT] - [1]
+02:54:47,464 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [John Smith]
+02:54:47,465 DEBUG SQL:109 - 
+    insert 
+    into
+        Guide
+        (name, salary, staff_id) 
+    values
+        (?, ?, ?)
+02:54:47,466 TRACE BasicBinder:81 - binding parameter [1] as [VARCHAR] - [Ian Lamb]
+02:54:47,466 TRACE BasicBinder:81 - binding parameter [2] as [INTEGER] - [2000]
+02:54:47,466 TRACE BasicBinder:81 - binding parameter [3] as [VARCHAR] - [2000IM10901]
